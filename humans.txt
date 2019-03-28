@@ -1,0 +1,13 @@
+/* TEAM */
+	Twitter: @ph0wn
+	From:France
+
+/* THANKS */
+	(First) Name: Vidhya
+	Github: https://github.com/vidhyav656/startbootstrap-stylish-portfolio-jekyll
+
+/* SITE */
+	Last update:2019/03/28
+	Language: English
+	Doctype: HTML5, CSS, Bootstrap-4
+	Components:Jquery
