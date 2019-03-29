@@ -93,6 +93,7 @@ tags: 2018 archive write-up video
 ---
 ```
 
+Selecting the appropriate simple line icons: [display here](https://simplelineicons.github.io/)
 
 ## To do
 
