@@ -73,7 +73,23 @@ Creating a button with the theme's color:
 
 ```html
  <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-``` 
+```
+
+
+Using dark fonts for the header: `_includes/header.html`
+
+```html
+<h1 class="mb-1">Ph0wn CTF</h1>
+<h3 class="mb-5">
+...
+<a class="btn btn-dark btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+```
+
+- Don't specify any text color for dark color. `text-white` will use white. `text-primary` will use Ph0wn's red etc (see `assets/css/stylish-portfolio.css`)
+- Use `btn-dark` for a dark button
+
+
+### Design organization
 
 The `index.html` page is organized in *sections*.
 
@@ -94,6 +110,8 @@ tags: 2018 archive write-up video
 ```
 
 Selecting the appropriate simple line icons: [display here](https://simplelineicons.github.io/)
+
+
 
 ## To do
 
