@@ -325,11 +325,13 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color:   #ecb807;
+  font-weight: 800;
 }
 
 a:hover, a:focus, a:active {
   color: #155d74;
+  font-weight: 800;
 }
 
 .btn-primary {
