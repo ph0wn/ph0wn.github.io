@@ -377,3 +377,7 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
+.text-lightdark {
+  color: #504a4a !important;	
+}
