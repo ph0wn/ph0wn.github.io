@@ -111,7 +111,11 @@ tags: 2018 archive write-up video
 
 Selecting the appropriate simple line icons: [display here](https://simplelineicons.github.io/)
 
+## Testing locally
 
+[Setup jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll)
+
+Run `bundle exec jekyll serve`
 
 ## To do
 
