@@ -26,7 +26,7 @@ github_username:  ph0wn
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
+plugins_dir:
   - jekyll-feed
 incremental: true
 
