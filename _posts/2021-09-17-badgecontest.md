@@ -40,7 +40,7 @@ permalink: /badges/
 	    	<li><b>Prize</b>. We expect to be able to provide a small geek prize to the winner. However, in the unlikely case we have no available prize, the winner will only win <i>glory</i> <i class="fas fa-certificate"></i> !</li>
 	    	<li><b>Picture</b>. Badge competitors accept people take pictures <i class="fas fa-camera"></i> of their badge. These images may go for instance on social networks <i class="fas fa-share-alt"></i>. If badge competitors do not wish this, please do not supply a badge.</li>
 	    	<li><b>Promotion</b>. Badge competitors may promote <i class="fas fa-bullhorn"></i> their badge (online, or on site). However, they may not buy votes, attempt to corrupt voters etc. In all cases, promotion/Advertisment must comply with <a href="/conduct">Code of Conduct</a>.</li>
-	    	<li><b>Leave with your badge</b>.Each badge competitor must take his/her badge back home at the end of the competition. Remaining unclaimed badges may be trashed.</li>
+	    	<li><b>Leave with your badge</b>.Each badge competitor must take his/her badge back home at the end of the competition. Remaining unclaimed badges may end in our personal museum.</li>
 	    	</ul>
 	    	</p>
 	 </div>
