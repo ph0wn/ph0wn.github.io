@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Ph0wn Badge Contest 2021"
+title:  "Ph0wn Badge Contest"
 tags: 2021 badgelife competition
 permalink: /badges/
 ---
@@ -8,9 +8,10 @@ permalink: /badges/
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto text-center">
-	    	 <h2>New: Ph0wn Badge Contest - Edition 2021</h2>
+	    	 <h2>Ph0wn Badge Contest Edition 2022</h2>
 	    	 <p class="lead mb-5">
-	    	 New for Ph0wn 2021 Edition: we are hosting a <b>Badge Contest</b>.
+		 We were very sorry the <b>Badge Contest</b> had to be cancelled in 2021.
+		 It will be back in <b>Ph0wn 2022 Edition</b>. Prepare your badges!
 	    	 </p>
 	    	 <p class="mb-2">
 			<b>Bring your favorite badge at Ph0wn CTF</b>: one you built yourself or simply a badge you got at a former conference. 
