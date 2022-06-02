@@ -10,9 +10,7 @@ permalink: /badges/
             <div class="col-lg-10 mx-auto text-center">
 	    	 <h2>Ph0wn Badge Contest Edition 2022</h2>
 	    	 <p class="lead mb-5">
-		 We were very sorry the <b>Badge Contest</b> had to be cancelled in 2021.
-		 It will be back in <b>Ph0wn 2022 Edition</b>. Prepare your badges!
-	    	 </p>
+		 	    	 </p>
 	    	 <p class="mb-2">
 			<b>Bring your favorite badge at Ph0wn CTF</b>: one you built yourself or simply a badge you got at a former conference. 
 	    	
@@ -40,8 +38,8 @@ permalink: /badges/
 	    	<li><b>Winner</b>. The badge competitor with the <b>most votes wins <i class="fas fa-star"></i> the contest</b>.  Votes <i class="fas fa-poll"></i> are counted by the Ph0wn organization staff, ph0wn participants may watch the count. Tie: if several badge competitors get the same count of votes, depending on available prizes, the Ph0wn organization staff may have to select only one winner. The organization staff decides.</li>
 	    	<li><b>Prize</b>. We expect to be able to provide a small geek prize to the winner. However, in the unlikely case we have no available prize, the winner will only win <i>glory</i> <i class="fas fa-certificate"></i> !</li>
 	    	<li><b>Picture</b>. Badge competitors accept people take pictures <i class="fas fa-camera"></i> of their badge. These images may go for instance on social networks <i class="fas fa-share-alt"></i>. If badge competitors do not wish this, please do not supply a badge.</li>
-	    	<li><b>Promotion</b>. Badge competitors may promote <i class="fas fa-bullhorn"></i> their badge (online, or on site). However, they may not buy votes, attempt to corrupt voters etc. In all cases, promotion/Advertisment must comply with <a href="/conduct">Code of Conduct</a>.</li>
-	    	<li><b>Leave with your badge</b>.Each badge competitor must take his/her badge back home at the end of the competition. Remaining unclaimed badges may end in our personal museum.</li>
+	    	<li><b>Promotion</b>. Badge competitors may promote <i class="fas fa-bullhorn"></i> their badge (online, or on site). However, they may not buy votes (!), attempt to corrupt voters etc. In all cases, promotion/advertisment must comply with <a href="/conduct">Code of Conduct</a>.</li>
+	    	<li><b>Leave with your badge</b>. Each badge competitor must take his/her badge back home at the end of the competition. Remaining unclaimed badges may end in our personal museum.</li>
 	    	</ul>
 	    	</p>
 	 </div>
