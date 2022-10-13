@@ -18,7 +18,7 @@ permalink: /badges/
 			<img src="/images/badges-collection.jpg" width="500px"/>
 		 <p>
 	    	 We will display all badges at the venue.<br>
-	    	 Each participant present at Ph0wn will <b>vote for his/her favorite badge</b>. <b>The winner receives a <i>prize</i></b> (to be determined, but we hope for something geek).<br>
+	    	 Each participant present at Ph0wn will <b>vote for his/her favorite badge</b>. <b>The winner receives a <i>prize</i></b> (to be determined).<br>
 	    	 This contest is meant to be fun and educative. As usual, remain fair play, and enjoy!
 	    	 </p>
 	 </div>
@@ -36,7 +36,7 @@ permalink: /badges/
 		Badge competitors: while we expect all participants to follow the <a href="/conduct">Code of Conduct</a>, you remain responsible for your badge.<b>If you do not want participants to touch your badge, say so and place a visible sign or sticker on it</b>. We won't be held responsible for badge damage or loss.</li>
 	    	<li><b>Votes</b>. Each ph0wn participant or authorized visitor may <b>vote only once, and for a single badge</b>. To vote, people are given a <i>physical token</i>. They must provide this physical token to the organization staff to vote: no physical token, no vote! Badge competitors may vote, including for their own badge :) A Ph0wn participant may redeem his/her physical token to another person, that person can then vote in his/her name. Selling, stealing, blackmailing (etc!) participants for their physical token is absolutely prohibited...</li>
 	    	<li><b>Winner</b>. The badge competitor with the <b>most votes wins <i class="fas fa-star"></i> the contest</b>.  Votes <i class="fas fa-poll"></i> are counted by the Ph0wn organization staff, ph0wn participants may watch the count. Tie: if several badge competitors get the same count of votes, depending on available prizes, the Ph0wn organization staff may have to select only one winner. The organization staff decides.</li>
-	    	<li><b>Prize</b>. We expect to be able to provide a small geek prize to the winner. However, in the unlikely case we have no available prize, the winner will only win <i>glory</i> <i class="fas fa-certificate"></i> !</li>
+	    	<li><b>Prize</b>. We expect to be able to provide a geek prize to the winner.</li>
 	    	<li><b>Picture</b>. Badge competitors accept people take pictures <i class="fas fa-camera"></i> of their badge. These images may go for instance on social networks <i class="fas fa-share-alt"></i>. If badge competitors do not wish this, please do not supply a badge.</li>
 	    	<li><b>Promotion</b>. Badge competitors may promote <i class="fas fa-bullhorn"></i> their badge (online, or on site). However, they may not buy votes (!), attempt to corrupt voters etc. In all cases, promotion/advertisment must comply with <a href="/conduct">Code of Conduct</a>.</li>
 	    	<li><b>Leave with your badge</b>. Each badge competitor must take his/her badge back home at the end of the competition. Remaining unclaimed badges may end in our personal museum.</li>

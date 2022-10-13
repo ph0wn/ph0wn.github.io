@@ -14,7 +14,7 @@ permalink: /conduct/
 	    </p>
 	    
 	    <h2><i class="fas fa-thumbs-up"></i> Expected behaviors</h2>
-	     Expected behavior of attendees include, but is not limited to, the following:
+	     Expected behavior of attendees include, but is <i>not limited</i> to, the following:
 
 	     <ul>
 	     <li>Treat others with respect and dignity;</li>
@@ -35,7 +35,7 @@ permalink: /conduct/
 
 	     <h2><i class="fas fa-minus-circle"></i> Anti-harassment</h2>
 	     <p>
-	     Participants asked to stop any harassing behavior are expected to comply immediately. Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, or religion, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+	     Participants asked to stop any harassing behavior are expected to comply immediately. Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, or religion, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disruption of workshops, challenges or other events, inappropriate physical contact, and unwelcome sexual attention.
 	     </p>
 	     <p>
 	     As this is a security challenge, we would like to note that the <i>hacks created during the Capture the Flag contest or the badges submitted to the Badge Contest</i> are equally subject to the anti-harassment policy.
