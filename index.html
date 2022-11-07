@@ -29,6 +29,8 @@ title: Ph0wn CTF
     		<p>
 		    <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://ph0wn.org">Registration opens on Nov 8, 2022</a>
 		</p>
+
+
     
             </div>
         </div>
@@ -106,28 +108,35 @@ prepared a target device for you to fiddle with during the workshop.
 		 In this workshop you will learn:
 
 		 <ul>
-		     <li> What a FPGA is,</li>
-		     <li> Digital electronic basics,</li>
-		     <li> What Migen and Litex are,</li>
+		     <li> Digital electronic basics (combinatorial and synchronous logic),</li>
+		     <li> Description of FPGAs,</li>
+         <li> Digital design challenges (metastability, CDC, timings),</li>
+         <li> What Migen and Litex are,</li>
 		     <li> How to run a simple design in simulation,</li>
 		     <li> Build your own blinker and run it on the target.</li>
 		 </ul>
 
-		 Because we will use a GOWIN board (Tango Nano) we need to install the GOWIN toolchain.
-		 Unfortunately this requires to individually ask a (free) license directly to GOWIN.
-
-		 For a pleasant experience please bring a laptop running Linux and please:
+     Because we will use an Intel FPGA (Cyclone IV), we need to install Quartus Prime (Lite Edition).
+     For a pleasant experience please bring a laptop running Linux and please:
+		 
 
 		 <ul>
-		     <li> Follow the <a href="https://github.com/enjoy-digital/litex">quick start guide here</a> </li>
-		     <li> Install <a href="https://www.gowinsemi.com/en/support/download_eda/">GOWIN and ask for a license</a></li>
-		     <li> Install <a href="https://github.com/trabucayre/openFPGALoader">openFPGALoader</a></li>
+		     <li> Follow the <a href="https://github.com/enjoy-digital/litex#quick-start-guide">quick start guide here</a> </li>
+		     <li> Install <a href="https://www.intel.com/content/www/us/en/software-kit/736571/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-linux.html">Quartus Prime</a></li>
+		    
 		 </ul>
+
+     You can either:
+
+     <ul>
+      <li> Download Quartus-lite-21.1.1.850-linux.tar (6.6GB)</li>
+      <li> or Download QuartusLiteSetup-21.1.1.850-linux.run (1.9GB) + cyclone-21.1.1.850.qdz (466MB)</li>
+     </ul>
 
 		 If you've set up everything correctly, you should be able to run :
 
 	     <pre>
-		 ../litex-boards/litex_boards/targets$ ./sipeed_tang_nano.py --build
+python3 -m litex_boards.targets.qmtech_ep4ce15_starter_kit --build
 	     </pre>
 
        
