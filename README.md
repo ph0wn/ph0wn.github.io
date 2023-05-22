@@ -119,9 +119,10 @@ tags: 2018 archive write-up video
 
 Selecting the appropriate simple line icons: [display here](https://simplelineicons.github.io/)
 
-##  Updating jQuery
+##  Updating
 
-Download the new Javascript files in `./vendor/jquery`
+- JQuery, font awesome: put the files in `./vendor/`
+- Bundle: `bundle update`
 
 ## Testing locally
 
