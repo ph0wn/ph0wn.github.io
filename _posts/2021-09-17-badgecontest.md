@@ -8,7 +8,7 @@ permalink: /badges/
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto text-center">
-	    	 <h2>Ph0wn Badge Contest Edition 2023</h2>
+	    	 <h2>Ph0wn Badge Contest - Edition 2023</h2>
 	    	 <p class="lead mb-5">
 		 	    	 </p>
 	    	 <p class="mb-2">
