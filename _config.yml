@@ -30,6 +30,10 @@ plugins_dir:
   - jekyll-feed
 incremental: true
 
+# see https://github.com/jekyll/minima/issues/709
+sass:
+  quiet_deps: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
