@@ -1,0 +1,27 @@
+# main links
+main:
+  - title: "Participate"
+    url: /participate/
+
+  - title: Sponsors
+    url: /sponsors/
+
+  - title: Steering Committee
+    url: /steeringCommittee/
+
+  - title: Venue
+    url: /venue/
+
+
+  - title: CTF Rules
+    url: /rules/
+
+  - title: Code of Conduct
+    url: /codeOfConduct/
+
+  - title: Badge Contest
+    url: /badge/
+
+  - title: Archive
+    url: /archive/
+

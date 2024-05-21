@@ -1,0 +1,95 @@
+---
+layout: splash
+author_profile: false
+title: "Sponsors for 2024"
+permalink: /sponsors/
+entries_layout: grid
+
+sponsors:
+  - url: https://www.fortinet.com/
+    image_path: /assets/images/sponsors/Fortinet_Logo_Black-Red.png
+    alt: "Fortinet"
+    title: "Fortinet"
+    inline_style_properties: "width: 300px; padding-top: 30%;"
+
+  - url: https://www.telecom-paris.fr/
+    image_path: /assets/images/sponsors/logotpt.png
+    alt: "Telecom Paris"
+    title: "Telecom Paris"
+    inline_style_properties: "height: 300px;"
+
+
+  - url: https://univ-cotedazur.fr/
+    image_path: /assets/images/sponsors/uca.png
+    alt: "Université Côte d'Azur"
+    title: "Université Côte d'Azur"
+    inline_style_properties: "height: 300px;"
+
+  - url: https://ringzer0.training/
+    image_path: /assets/images/sponsors/ringzer0-black.png
+    alt: "Ringzer0"
+    title: "Ringzer0"
+
+  - url: https://hardware.io/
+    image_path: /assets/images/sponsors/hardwear_300.png
+    alt: "hardware.io"
+    title: "hardware.io"
+    inline_style_properties: "height: 140px;"
+
+  - url: https://www.eurecom.fr
+    image_path: /assets/images/sponsors/eurecom_med.jpg
+    alt: "Eurecom"
+    title: "Eurecom"
+
+  - url : https://www.hydrabus.com/
+    image_path: /assets/images/sponsors/HydraBus_RED.png
+    alt: "hydrabus"
+    title: "hydrabus"
+    inline_style_properties: "height: 140px;"
+
+
+
+partnerEvents:
+  - url: https://www.grehack.fr/
+    image_path: /assets/images/sponsors/grehack2023.png
+    alt: "GreHack"
+    title: "GreHack"
+    inline_style_properties: "height: 513px;"
+
+  - url: "#"
+    image_path: /assets/images/sponsors/logo_ACH_sans_font.png
+    alt: "ACH"
+    title: "ACH"
+
+
+---
+
+<h2>Sponsors for 2024</h2>
+<figure class="">
+  {% for image in page.sponsors %}
+    <a href="{{ image.url }}">
+      <img src="{{ image.image_path }}" alt="{{ image.alt }}" title="{{ image.title }}"
+      {% if image.inline_style_properties %} style="{{ image.inline_style_properties }}" {% endif %}
+      />
+    </a>
+  {% endfor %}
+</figure>
+
+<h2> Want to sponsor Ph0wn 2024 ?</h2>
+<a class="btn btn-dark btn-xl js-scroll-trigger" href="https://twitter.com/ph0wn">Send us an email on contact (at) ph0wn (dot) org</a>
+
+
+<h2>Partner Events</h2>
+
+<figure class="half">
+  {% for image in page.partnerEvents %}
+    <a href="{{ image.url }}">
+      <img src="{{ image.image_path }}" alt="{{ image.alt }}" title="{{ image.title }}"
+      {% if image.inline_style_properties %} style="{{ image.inline_style_properties }}" {% endif %}
+      />
+    </a>
+  {% endfor %}
+
+</figure>
+
+

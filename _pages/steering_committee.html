@@ -1,0 +1,147 @@
+---
+layout: splash
+author_profile: false
+title: "Steering Committee"
+permalink: /steeringCommittee/
+entries_layout: grid
+
+committee_grid_1:
+  - name: "Axelle Apvrille"
+    social: "@cryptax"
+    socialLink: "https://x.com/cryptax"
+    workPlace: "Fortinet"
+
+  - name: "Ludovic Apvrille"
+    social: ""
+    workPlace: "Telecom Paris"
+
+  - name: "Sandro Barbero"
+    social: ""
+    workPlace: "Fortinet"
+
+  - name: "Romain Cayre"
+    social: ""
+    workPlace: "Eurecom"
+
+committee_grid_2:
+    - name: "Brehima Coulibaly"
+      social: ""
+      workPlace: "Fortinet"
+
+    - name: "Savino Dambra"
+      social: ""
+      workPlace: "Norton Research Group"
+
+    - name: "Fabien Ferrero"
+      social: ""
+      workPlace: "Université de Nice"
+
+committee_grid_3:
+  - name: "Alain Forcioli"
+    social: ""
+    workPlace: "Fortinet"
+
+  - name: "Romain Malmain"
+    social: ""
+    workPlace: "Eurecom"
+
+  - name: "Philippe Paget"
+    social: "@Phil242"
+    socialLink: "https://twitter.com/Phil242"
+    workPlace: "GreHack"
+
+  - name: "Bastien Sultan"
+    social: ""
+    workPlace: "Telecom Paris"
+
+---
+
+
+<h2> Sterring Committee</h2>
+
+<div class="org-chart">
+
+  <div class="level">
+
+      {% for member in page.committee_grid_1 %}
+        <div class="box">
+            <div class="steering-committee">
+              <div class="profileBox">
+                {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+              </div>
+            </div>
+            <div>
+              {{ member.name }}
+            </div>
+            <i>
+              {% if member.socialLink %}
+                  <a href="{{member.socialLink}}"> {{ member.social }} </a>
+                {% else %}
+                  {{ member.social }}
+                {% endif %}
+               <br>
+               <i class="fa-regular fa-building"></i>
+              {{ member.workPlace }}
+           </i>
+        </div>
+      {% endfor %}
+
+  </div>
+
+  <div class="level">
+
+    {% for member in page.committee_grid_2 %}
+      <div class="box">
+          <div class="steering-committee">
+            <div class="profileBox">
+              {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+            </div>
+          </div>
+          <div>
+            {{ member.name }}
+          </div>
+          <i>
+            {% if member.socialLink %}
+            <a href="{{member.socialLink}}"> {{ member.social }} </a>
+            {% else %}
+                {{ member.social }}
+            {% endif %}
+            <br>
+            <i class="fa-regular fa-building"></i>
+            {{ member.workPlace }}
+          </i>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="level">
+
+    {% for member in page.committee_grid_3 %}
+      <div class="box">
+          <div class="steering-committee">
+            <div class="profileBox">
+              {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+            </div>
+          </div>
+          <div>
+            {{ member.name }}
+          </div>
+          <i>
+            {% if member.socialLink %}
+            <a href="{{member.socialLink}}"> {{ member.social }} </a>
+            {% else %}
+              {{ member.social }}
+            {% endif %}
+         <br>
+         <i class="fa-regular fa-building"></i>
+            {{ member.workPlace }}
+          </i>
+      </div>
+    {% endfor %}
+  </div>
+
+
+
+
+
+</div>

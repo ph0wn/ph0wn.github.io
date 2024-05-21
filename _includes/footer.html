@@ -1,29 +1,21 @@
-<footer class="footer text-center">
-    <div class="container">
-        <ul class="list-inline mb-5">
-	    <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="https://infosec.exchange/@ph0wn">
-		    <i class="fab fa-mastodon"></i>
-		</a>
-            </li>
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
 
-            <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/ph0wn">
-		    <i class="icon-social-twitter"></i>
-		</a>
-            </li>
-	    <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="https://github.com/ph0wn">
-		    <i class="icon-social-github"></i>
-		</a>
-            </li>
-	    <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="https://discord.gg/X5n2q4Nq">
-		    <i class="fab fa-discord"></i>
-		</a>
-            </li>
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
-        </ul>
-        <p class="text-muted small mb-0">Copyright &copy; ph0wn 2024</p>
-    </div>
-</footer>
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
