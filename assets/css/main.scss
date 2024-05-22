@@ -76,10 +76,15 @@ search: false
 }
 .org-chart .level {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
     margin: 20px 0;
 }
 .org-chart .box {
+    flex: 1 1 200px;
+    margin: 10px;
+    max-width: 300px;
     border: 2px dashed #000;
     padding: 10px;
     margin: 0 10px;
