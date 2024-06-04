@@ -1,61 +1,91 @@
 ---
 layout: splash
 author_profile: false
-title: "Steering Committee"
-permalink: /steeringCommittee/
+title: "contact"
+permalink: /contact/
 entries_layout: grid
 search: false
 
 committee_grid_1:
   - name: "Axelle Apvrille"
+    photo: "/assets/images/staff/axelle-apvrille.png"
+    role: "Lead Organizer"
     social: "@cryptax"
     socialLink: "https://x.com/cryptax"
     workPlace: "Fortinet"
 
   - name: "Ludovic Apvrille"
+    photo: "/assets/images/staff/ludovic-apvrille.png"
+    role: "Sponsor Contracts"
     social: ""
     workPlace: "Telecom Paris"
 
   - name: "Sandro Barbero"
+    photo: "/assets/images/staff/sandro-barbero.png"
+    role: "CTFd master"
     social: ""
     workPlace: "Fortinet"
 
   - name: "Romain Cayre"
+    photo: "/assets/images/staff/romain-cayre.png"
+    role: ""
     social: ""
     workPlace: "Eurecom"
 
 committee_grid_2:
     - name: "Brehima Coulibaly"
+      photo: ""
+      role: "Website"
       social: ""
       workPlace: "Fortinet"
 
     - name: "Savino Dambra"
+      photo: "/assets/images/staff/savino-dambra.png"
       social: ""
       workPlace: "Norton Research Group"
 
     - name: "Fabien Ferrero"
+      photo: "/assets/images/staff/fabien-ferrero.png"
+      role: "Antenna and satellite"
       social: ""
       workPlace: "Université de Nice"
 
 committee_grid_3:
   - name: "Alain Forcioli"
+    photo: "/assets/images/staff/alain-forcioli.png"
+    role: "CTF Wifi"
     social: ""
     workPlace: "Fortinet"
 
   - name: "Romain Malmain"
+    photo: "/assets/images/staff/romain-malmain.png"
+    role: "Tests"
     social: ""
     workPlace: "Eurecom"
 
   - name: "Philippe Paget"
+    photo: "/assets/images/staff/philippe-paget.png"
+    role: "Hardware"
     social: "@Phil242"
     socialLink: "https://twitter.com/Phil242"
     workPlace: "GreHack"
 
   - name: "Bastien Sultan"
+    photo: "/assets/images/staff/bastien-sultan.png"
     social: ""
     workPlace: "Telecom Paris"
 
 ---
+
+<h2>Contact</h2>
+<ul class="no-bullets">
+  <li> <i class="fa fa-envelope"></i>  contact (at) ph0wn (dot) org</li>
+  <li> <i class="fab fa-twitter"></i> <a href="https://twitter.com/ph0wn">@ph0wn</a></li>
+  
+  <li> <i class="fab fa-mastodon"></i> <a href="https://infosec.exchange/@ph0wn">ph0wn</a></li>
+  <li> <i class="fab fa-discord"></i> <a href="https://discord.gg/X5n2q4Nq">ph0wn</a></li>
+
+</ul>
 
 
 <h2> Sterring Committee</h2>
@@ -68,11 +98,18 @@ committee_grid_3:
         <div class="box">
             <div class="steering-committee">
               <div class="profileBox">
-                {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+                {% if member.photo.size > 0 %}
+                  <img src="{{ member.photo }}" >
+                {% else %}
+                  {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+                {% endif %}
               </div>
             </div>
             <div>
               {{ member.name }}
+            </div>
+            <div>
+              {{ member.role }}
             </div>
             <i>
               {% if member.socialLink %}
@@ -95,11 +132,18 @@ committee_grid_3:
       <div class="box">
           <div class="steering-committee">
             <div class="profileBox">
-              {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+              {% if member.photo.size > 0 %}
+                  <img src="{{ member.photo }}" >
+                {% else %}
+                  {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+              {% endif %}
             </div>
           </div>
           <div>
             {{ member.name }}
+          </div>
+          <div>
+            {{ member.role }}
           </div>
           <i>
             {% if member.socialLink %}
@@ -121,11 +165,18 @@ committee_grid_3:
       <div class="box">
           <div class="steering-committee">
             <div class="profileBox">
-              {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+              {% if member.photo.size > 0 %}
+                  <img src="{{ member.photo }}" >
+              {% else %}
+                  {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
+              {% endif %}
             </div>
           </div>
           <div>
             {{ member.name }}
+          </div>
+          <div>
+            {{ member.role }}
           </div>
           <i>
             {% if member.socialLink %}
