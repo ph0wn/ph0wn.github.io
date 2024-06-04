@@ -3,9 +3,7 @@ main:
 
   - title: "Home"
     url: /
-  - title: "Participate"
-    url: /participate/
-
+  
   - title: Sponsors
     url: /sponsors/
 
@@ -16,8 +14,8 @@ main:
     url: /venue/
 
 
-  - title: CTF Rules
-    url: /rules/
+  - title: Details
+    url: /details/
 
   - title: Code of Conduct
     url: /codeOfConduct/
