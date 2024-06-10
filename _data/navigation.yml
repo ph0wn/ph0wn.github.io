@@ -3,25 +3,21 @@ main:
 
   - title: "Home"
     url: /
+
+  - title: Venue
+    url: /venue/
   
   - title: Sponsors
     url: /sponsors/
 
-  - title: Contact
-    url: /contact/
-
-  - title: Venue
-    url: /venue/
-
-
   - title: Details
     url: /details/
 
-  - title: Code of Conduct
-    url: /codeOfConduct/
-
   - title: Badge Contest
     url: /badge/
+
+  - title: Contact
+    url: /contact/
 
   - title: Archive
     url: /archive/
