@@ -215,3 +215,19 @@ ul.no-bullets {
 .greedy-nav__toggle:hover .navicon, .greedy-nav__toggle:hover .navicon::before, .greedy-nav__toggle:hover .navicon::after {
 	background: black;
 }
+
+
+
+.toc .nav__title {  /* Toc: Table of content*/
+	color: #fff;
+	font-size: .75em;
+	background: #A32D21;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+
+.toc .active a {
+  background-color: #d0d3d4;
+  color: #3d4144;
+}
