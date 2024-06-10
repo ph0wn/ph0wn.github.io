@@ -147,7 +147,7 @@ ul.no-bullets {
   list-style-type: none;
 }
 
-/* Navbar color */
+/* Navbar main header color */
 .masthead {
 	position: relative;
 	border-bottom: 1px solid #A32D21; /* ph0wn color */
@@ -159,6 +159,8 @@ ul.no-bullets {
 	background-color: #A32D21;
 }
 
+
+/* Navbar navigation menu color */
 .greedy-nav {
   position: relative;
   display: -webkit-box;
@@ -171,7 +173,7 @@ ul.no-bullets {
   background: #A32D21;
 }
 
-.greedy-nav a {
+.greedy-nav a { /* Navbar links initial color */
 	display: block;
 	margin: 0 1rem;
 	color: white;
@@ -180,7 +182,25 @@ ul.no-bullets {
 	transition: none;
 }
 
-.greedy-nav .hidden-links {
+.greedy-nav a:hover {  /* Navbar links hover color */
+  color: #A32D21;
+  background-color: white;
+}
+
+.greedy-nav .visible-links a::before { /* Navbar underline animation color */
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 4px;
+	background: white;
+	width: 100%;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	-webkit-transform: scaleX(0) translate3d(0, 0, 0);
+	transform: scaleX(0) translate3d(0, 0, 0);
+}
+.greedy-nav .hidden-links { /* Navbar additional links by default represented by 3 horizontal line*/
 	position: absolute;
 	top: 100%;
 	right: 0;
@@ -199,7 +219,8 @@ ul.no-bullets {
 }
 
 .search__toggle:hover {
-	color: black;
+  background-color: white;
+	color: #A32D21;
 }
 
 .navicon {
@@ -212,13 +233,10 @@ ul.no-bullets {
 	transition: .3s;
 }
 
-.greedy-nav__toggle:hover .navicon, .greedy-nav__toggle:hover .navicon::before, .greedy-nav__toggle:hover .navicon::after {
-	background: black;
-}
 
 
 
-.toc .nav__title {  /* Toc: Table of content*/
+.toc .nav__title {  /*Posts Toc: Table of content*/
 	color: #fff;
 	font-size: .75em;
 	background: #A32D21;
