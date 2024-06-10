@@ -16,11 +16,12 @@ main:
   - title: Badge Contest
     url: /badge/
 
+  - title: Gallery
+    url: /gallery/
+
   - title: Contact
     url: /contact/
 
-  - title: Gallery
-    url: /gallery/
 
   - title: Archive
     url: /archive/
