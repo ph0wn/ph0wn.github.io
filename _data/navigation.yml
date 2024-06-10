@@ -20,9 +20,14 @@ main:
   - title: Code of Conduct
     url: /codeOfConduct/
 
+  - title: Gallery
+    url: /gallery/
+
   - title: Badge Contest
     url: /badge/
 
   - title: Archive
     url: /archive/
+
+
 

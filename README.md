@@ -4,26 +4,27 @@
 
 Ph0wn website is using jekyll and liquid for templating. for the website template we are using a theme called [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
 
-in addition to the documentation you have this nice [cheat sheet](https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/) to get up to speed with the theme.
+In addition to the documentation you have this nice [cheat sheet](https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/) to get up to speed with the theme.
 
 ## Main Customizations
 
 
 ### CSS
 
-the file `_config.yml` contains the main configurations for the website. however, I have added few customizations to the theme.
+The file `_config.yml` contains the main configurations for the website. however, I have added few customizations to the theme.
 All CSS customizations can be found in the file `assets/css/main.scss`.
 
-if you are not able to find a specific CSS class, you can use the browser's inspect tool to find the class and override it in the `main.scss` file.
+If you are not able to find a specific CSS class, you can use the browser's inspect tool to find the class and override it in the `main.scss` file.
 
 ### Navigation
-navigation is defined in the file `_data/navigation.yml`. you can add or remove items from the navigation bar by modifying this file.
+Navigation is defined in the file `_data/navigation.yml`. you can add or remove items from the navigation bar by modifying this file.
 but first to add/remove a page, you need to add/remove the page from the `_pages` folder.
 feel free to refer to the [documentation](https://mmistakes.github.io/minimal-mistakes/docs/navigation/) for more details.
 
 ####  Sponsors
-the sponsors images can be found in the folder `assets/images/sponsors/`. to add or modify a sponsor, you need to add the image to the folder and add the following code to the file `_pages/sponsors.html`:
-under the sponsors variable:
+the sponsors images can be found in the folder `assets/images/sponsors/`. to add or modify a sponsor, you need to add the image to the folder and update the file `_pages/sponsors.html`.
+
+for example, under the sponsors variable:
 
 ```yaml
 sponsors:
@@ -33,8 +34,9 @@ sponsors:
     title: "Fortinet"
     inline_style_properties: "width: 300px; padding-top: 30%;"
 ```
-to your convenience, you can modify the `inline_style_properties` to adjust the size of the image.
-later in the file, the following code is used to display the sponsors:
+To your convenience, you can modify the `inline_style_properties` to adjust the size of the image.
+
+Later in the file, the following code is used to display the sponsors:
 
 ```html
 {% for sponsor in page.sponsors %}
@@ -45,7 +47,7 @@ later in the file, the following code is used to display the sponsors:
   </div>
 {% endfor %}
 ```
-so if you want to:
+If you want to:
 *  modify the layout of the sponsors, you can modify the HTML code above. 
 *  or modify the order in which the sponsors are displayed, you can modify the order of the sponsors in the `sponsors` variable.
 
@@ -54,17 +56,20 @@ By default, the sponsors are displayed in a grid layout with 3 columns.
 #### Posts 
 * The posts as well as the other pages uses the same way to display images. 
 * The images are stored in the folder `assets/images/` and are referenced in the front matter of the post/page.
-* if you want to add toc to a post, for easier navigation, you can add the following code to the front matter of the post:
+* if you want to add a `toc` to a post, for easier navigation, you can add the following code to the front matter of the post:
     ```yaml
     toc: true
     toc_label: "Ph0wn 2017 Edition"
     toc_icon: "flag"
     toc_sticky: true
     ```
-    the `toc_label` is the title of the toc, `toc_icon` is the icon that will be displayed next to the title, and `toc_sticky` is a boolean to make the toc sticky or not, for more details refer to the [documentation](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents).
+    the `toc_label` is the title of the toc, `toc_icon` is a font awesome icon that will be displayed next to the title, and `toc_sticky` is a boolean to make the toc sticky or not, for more details refer to the [documentation](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents).
 
 #### Contact Page
-in the contact page, the steering committee members section is *not* by default part of the theme. so for any big changes of the theme, you might need to modify the HTML code in the file `_pages/contact.html`.
+In the contact page, the steering committee members section is *not* by default part of the theme. so for any big changes of the theme, you might need to modify the HTML code in the file `_pages/contact.html` and update its css.
+
+#### Gallery
+regarding the gallery, the images are stored in the folder `assets/images/gallery/`. to add a new image to the gallery, you need to add the image to the folder. the htlml code will automatically display the images in the gallery. please note that for the moment, only **PNG** and **JPG** images are supported. if you would like to add other formats, you can modify the code in the file `_pages/gallery.html`.
 
 ## Running the website locally
 you will first need to have jeckyll installed on your machine. you can follow the instructions [here](https://jekyllrb.com/docs/installation/).
