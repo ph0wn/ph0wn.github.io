@@ -67,6 +67,23 @@ search: false
 }
 
 
+a { /* global style of a link, the order of this attribute is very important, it should be before *navbar* links overide */
+  color: #616a6b;
+}
+
+a:visited {
+	color: #616a6b;
+}
+
+a:hover {
+  color: #A32D21;
+  outline: 0;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
 .org-chart {
     display: flex;
     justify-content: center;
