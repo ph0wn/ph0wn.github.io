@@ -2,19 +2,36 @@
 
 ## Introduction
 
-Ph0wn website is using jekyll and liquid for templating. for the website template we are using a theme called [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
+The website uses Jekyll and liquid for templating. for the website template, we are using a theme called [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
 
-In addition to the documentation you have this nice [cheat sheet](https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/) to get up to speed with the theme.
+In addition to the documentation, you have this nice [cheat sheet](https://www.fabriziomusacchio.com/blog/2021-08-11-Minimal_Mistakes_Cheat_Sheet/) to get up to speed with the theme.
 
 ## Main Customizations
 
 
 ### CSS
 
-The file `_config.yml` contains the main configurations for the website. however, I have added few customizations to the theme.
+The file `_config.yml` contains the main configurations for the website. however, I have added a few customizations to the theme.
 All CSS customizations can be found in the file `assets/css/main.scss`.
 navigation colors can be modified in the file `assets/css/main.scss`
 ```scss
+
+a { /* global style of a link, the order of this attribute is very important, it should be before *navbar* links override. By default,  a link color is blue */
+  color: #616a6b;
+}
+
+a:visited {
+	color: #616a6b;
+}
+
+a:hover {
+  color: #A32D21;
+  outline: 0;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
 .greedy-nav a { /* Navbar links initial color */
 	display: block;
 	margin: 0 1rem;
@@ -54,7 +71,7 @@ navigation colors can be modified in the file `assets/css/main.scss`
 	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
-[..SNUP...]
+[..SNIP...]
 
 .toc .nav__title {  /* Toc: Table of content*/
 	color: #fff;
@@ -76,11 +93,11 @@ If you are not able to find a specific CSS class, you can use the browser's insp
 
 ### Navigation
 Navigation is defined in the file `_data/navigation.yml`. you can add or remove items from the navigation bar by modifying this file.
-but first to add/remove a page, you need to add/remove the page from the `_pages` folder.
+but first, to add/remove a page, you need to add/remove the page from the `_pages` folder.
 feel free to refer to the [documentation](https://mmistakes.github.io/minimal-mistakes/docs/navigation/) for more details.
 
 ####  Sponsors
-the sponsors images can be found in the folder `assets/images/sponsors/`. to add or modify a sponsor, you need to add the image to the folder and update the file `_pages/sponsors.html`.
+the sponsors' images can be found in the folder `assets/images/sponsors/`. To add or modify a sponsor, you need to add the image to the folder and update the file `_pages/sponsors.html`.
 
 for example, under the sponsors variable:
 
@@ -112,9 +129,9 @@ If you want to:
 By default, the sponsors are displayed in a grid layout with 3 columns.
 
 #### Posts 
-* The posts as well as the other pages uses the same way to display images. 
+* The posts as well as the other pages use the same way to display images. 
 * The images are stored in the folder `assets/images/` and are referenced in the front matter of the post/page.
-* if you want to add a `toc` to a post, for easier navigation, you can add the following code to the front matter of the post:
+* if you want to add a `toc(table of content)` to a post, for easier navigation, you can add the following code to the front matter of the post:
     ```yaml
     toc: true
     toc_label: "Ph0wn 2017 Edition"
@@ -124,13 +141,13 @@ By default, the sponsors are displayed in a grid layout with 3 columns.
     the `toc_label` is the title of the toc, `toc_icon` is a font awesome icon that will be displayed next to the title, and `toc_sticky` is a boolean to make the toc sticky or not, for more details refer to the [documentation](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#table-of-contents).
 
 #### Contact Page
-In the contact page, the steering committee members section is *not* by default part of the theme. so for any big changes of the theme, you might need to modify the HTML code in the file `_pages/contact.html` and update its css.
+In the contact page, the steering committee members section is *not* by default part of the theme. so for any big changes of the theme, you might need to modify the HTML code in the file `_pages/contact.html` and update its CSS.
 
 #### Gallery
-regarding the gallery, the images are stored in the folder `assets/images/gallery/`. to add a new image to the gallery, you need to add the image to the folder. the htlml code will automatically display the images in the gallery. please note that for the moment, only **PNG** and **JPG** images are supported. if you would like to add other formats, you can modify the code in the file `_pages/gallery.html`.
+regarding the gallery, the images are stored in the folder `assets/images/gallery/`. to add a new image to the gallery, you need to add the image to the folder. the HTML code will automatically display the images in the gallery. please note that for the moment, only **PNG** and **JPG** images are supported. if you would like to add other formats, you can modify the code in the file `_pages/gallery.html`.
 
 ## Running the website locally
-you will first need to have jeckyll installed on your machine. you can follow the instructions [here](https://jekyllrb.com/docs/installation/).
+you will first need to have Jekyll installed on your machine. you can follow the instructions [here](https://jekyllrb.com/docs/installation/).
 later you can run the website locally by running the following command in the root directory of the website:
 
 ```bash
