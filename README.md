@@ -92,6 +92,7 @@ a:hover, a:active {
 If you are not able to find a specific CSS class, you can use the browser's inspect tool to find the class and override it in the `main.scss` file.
 
 ### Navigation
+
 Navigation is defined in the file `_data/navigation.yml`. you can add or remove items from the navigation bar by modifying this file.
 but first, to add/remove a page, you need to add/remove the page from the `_pages` folder.
 feel free to refer to the [documentation](https://mmistakes.github.io/minimal-mistakes/docs/navigation/) for more details.

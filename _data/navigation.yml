@@ -10,23 +10,14 @@ main:
   - title: Sponsors
     url: /sponsors/
 
-  - title: Details
-    url: /details/
-
-  - title: Badge Contest
-    url: /badge/
-
-  - title: Workshops
-    url: /workshops24
-
   - title: Gallery
     url: /gallery/
 
   - title: Contact
     url: /contact/
 
-  - title: Archive
-    url: /archive/
+  - title: Details
+    url: /details/
 
 
 

@@ -20,55 +20,20 @@ committee_grid_1:
     social: ""
     workPlace: "Telecom Paris"
 
-  - name: "Sandro Barbero"
-    photo: "/assets/images/staff/sandro-barbero.png"
-    role: "CTFd master"
-    social: ""
-    workPlace: "Fortinet"
-
-  - name: "Romain Cayre"
-    photo: "/assets/images/staff/romain-cayre.png"
-    role: "Dr. Bluetooth"
-    social: ""
-    workPlace: "INSA"
-
-committee_grid_2:
-  - name: "Brehima Coulibaly"
-    photo: "/assets/images/staff/brehima-coulibaly.png"
-    role: "Webmaster & Social Networks"
-    social: ""
-    workPlace: "Fortinet"
-
-  - name: "Savino Dambra"
-    photo: "/assets/images/staff/savino-dambra.png"
-    role: "Dr. Norton Web"
-    social: ""
-    workPlace: "Norton Research Group"
-
-  - name: "Alain Forcioli"
-    photo: "/assets/images/staff/alain-forcioli.png"
-    role: "Network Architect"
-    social: ""
-    workPlace: "Fortinet"
-
-committee_grid_3:
-  
-  - name: "Romain Malmain"
-    photo: "/assets/images/staff/romain-malmain.png"
-    role: "Lead tester"
-    social: ""
-    workPlace: "Eurecom"
-
   - name: "Paul Ganelon"
     role: "Mr Event"
     social: "@PaulGanelon"
+    socialLink: "https://x.com/PaulGanelon"
     workPlace: "SHL"
+
+
+committee_grid_2:
 
   - name: "Philippe Paget"
     photo: "/assets/images/staff/philippe-paget.png"
     role: "Hardware"
     social: "@Phil242"
-    socialLink: "https://twitter.com/Phil242"
+    socialLink: "https://x.com/Phil242"
     workPlace: "GreHack"
 
   - name: "Bastien Sultan"
@@ -84,13 +49,13 @@ committee_grid_3:
   <li> <i class="fa fa-envelope"></i>  contact (at) ph0wn (dot) org</li>
   <li> <i class="fab fa-twitter"></i> <a href="https://twitter.com/ph0wn">@ph0wn</a></li>
   
-  <li> <i class="fab fa-mastodon"></i> <a href="https://infosec.exchange/@ph0wn">ph0wn</a></li>
-  <li> <i class="fab fa-discord"></i> <a href="https://discord.gg/ddspM9deeu">ph0wn</a></li>
+  <li> <i class="fab fa-mastodon"></i> <a href="https://infosec.exchange/@ph0wn">ph0wn</a> on infosec.exchange </li>
+  <li> <i class="fab fa-discord"></i> <a href="https://discord.gg/ddspM9deeu">ph0wn Discord server</a></li>
 
 </ul>
 
 
-<h2> Steering committee</h2>
+<h2>Core organizers</h2>
 
 <div class="org-chart">
 
@@ -161,41 +126,22 @@ committee_grid_3:
     {% endfor %}
   </div>
 
-  <div class="level">
+  <h2>Ph0wn regular volunteers</h2>
 
-    {% for member in page.committee_grid_3 %}
-      <div class="box">
-          <div class="steering-committee">
-            <div class="profileBox">
-              {% if member.photo.size > 0 %}
-                  <img src="{{ member.photo }}" >
-              {% else %}
-                  {{ member.name | split:" " | last | slice: 0, 1 }} {{ member.name | split:" " | first | slice: 0, 1 }}
-              {% endif %}
-            </div>
-          </div>
-          <div>
-            {{ member.name }}
-          </div>
-          <div>
-            {{ member.role }}
-          </div>
-          <i>
-            {% if member.socialLink %}
-            <a href="{{member.socialLink}}"> {{ member.social }} </a>
-            {% else %}
-              {{ member.social }}
-            {% endif %}
-         <br>
-         <i class="fa-regular fa-building"></i>
-            {{ member.workPlace }}
-          </i>
-      </div>
-    {% endfor %}
-  </div>
+  Many other people contribute to Ph0wn regularly:
+  <ul>
+    <li>Sandro Barbero - Fortinet (CTFd, HA)</li>
+    <li>Alexis Baret</li>
+    <li>Brehima Coulibaly - Fortinet (webmaster)</li>
+    <li>Savino Dambra - Norton Research Group</li>
+    <li>Alain Forcioli - Fortinet (network)</li>
+    <li>Romain Malmain - EURECOM (lead tester)</li>
+    <li>Nicolas Oberli</li>
+    <li>Nicolas Rouvière - GSF</li>
+    <li>Karim Sudki</li>
+  </ul>
 
-
-
+  and yet more have already created challenges for Ph0wn in the past: Guerric Eloi, Fabrice Francès, Travis Goodspeed, Letitia Li...
 
 
 </div>
