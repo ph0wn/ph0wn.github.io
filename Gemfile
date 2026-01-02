@@ -15,6 +15,9 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "minimal-mistakes-jekyll"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
